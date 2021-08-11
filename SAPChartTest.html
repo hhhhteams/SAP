@@ -1,0 +1,17 @@
+﻿<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="https://hhhhteams.sharepoint.com/sites/HHHHTeams/Style%20Library/js/angular/SAP/SAPChartTest.js"></script>
+
+<div ng-controller="ChartControllerTest" ng-cloak>
+
+    <div id="DistributionbyDepartment" class="Sap-project">
+        <div class="col-sm-10">
+            <div style="min-width: 310px; height: 400px; max-width: 100px; margin: 0 auto">
+                <label>Distribution by Department</label>
+                <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                <!--<canvas class="chart chart-bar" chart-data="Departmentsdata" chart-labels="Departmentslabels" chart-options="Departmentsoptions" chart-colors="colors" chart-click="DepartmentChartClick" chart-dataset-override="datasetOverride1"></canvas>-->
+            </div>
+        </div>
+        <!--<div class="col-sm-2"><a class="hreflink" ng-click="ShowAllProjects('Distribution by Department')">Show All Phases</a></div>-->
+        <div class="col-sm-12 mt-10 text-center"><p>Click on chart sections to show list of relevant projects below. <a class="hreflink" ng-click="ShowAllProjects('Distribution by Department')">Show all projects</a></p></div>
+    </div>
+</div>
